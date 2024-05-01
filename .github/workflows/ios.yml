@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Install Dependencies
         run: |
-          cd Example
+          cd buildios
           pod install --repo-update
         shell: bash
       - name: Set Default Scheme
