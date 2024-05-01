@@ -1,7 +1,7 @@
 
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
-platform :ios, '10.0'
+platform :ios, '12.0'
 target 'testbuild' do
 inhibit_all_warnings!
 
